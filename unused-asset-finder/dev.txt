@@ -1,0 +1,16 @@
+FIX VARIABLES
+    * Add logging -l, send logs to external file (-L) verbosity (-v(-v)(-v)), list unused assets without removal (-L), automatically remove unused assets without asking (-f)
+    * Default to sending files to trash instead of rm
+        * Different levels of verbosity?
+            * -v: list files which could not be removed
+            * -vv: v+ time elasped + number of files removed
+            * -vvv: vv + names of removed files
+                * separate flag to send logs to text file in cwd?
+            * -vvvv: vvv + amount of space saved
+
+    * Add help page via -h / -help flag
+
+    * Allow flags to be combined
+        * Make -h / -help only work if it is the sole argument
+    
+    * Add error handling
